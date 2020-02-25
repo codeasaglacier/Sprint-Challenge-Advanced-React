@@ -24,7 +24,7 @@ class Cards extends Component {
   render() {
     return(
       <div>
-        <p data-testid = { someName }>Name: { this.state.person.name }</p>
+        <p data-testid = 'wwcCards'>Name: { this.state.person.name }</p>
         <p>Country: { this.state.person.country }</p>
         <p>Searches: { this.state.person.searches }</p>
       </div>
